@@ -19,24 +19,24 @@ public class Task2GameBones {
                 ++i;
                 playerStats += (int) Math.round((Math.random() * 7));
 
-            }else if(choice == 2){
+            } if(choice == 2){
                 i = 0;
                 playerStats = 0;
                 continue;
-            }else if (choice == 0){
-                System.out.println("The game is over " + "the current step is" + i+1 + "value of player stats is " + playerStats);
+            } if (choice == 0){
+                System.out.println("The game is over " + "the current step is " + (i+1) + " value of player stats is " + playerStats);
                 break;
-            }else if (i == 5 & playerStats < 20) {
-                System.out.println("The game is over " + "the current step is" + i+1 + "value of player stats is " + playerStats +
+            }if (i == 5 & playerStats < 20) {
+                System.out.println("The game is over " + "the current step is " + (i+1) + " value of player stats is " + playerStats +
                         ". The score is too low");
                 break;
 
-            }else if (i == 5 & playerStats > 20) {
-                System.out.println("The game is over " + "the current step is" + i + 1 + "value of player stats is " + playerStats +
+            } if (i == 5 & playerStats > 20) {
+                System.out.println("The game is over " + "the current step is " + (i + 1) + " value of player stats is " + playerStats +
                         ". The score is too height");
                 break;
-            }else if (i == 5 & playerStats ==  20) {
-                System.out.println("The game is over " + "the current step is" + i + 1 + "value of player stats is " + playerStats +
+            } if (i == 5 & playerStats ==  20) {
+                System.out.println("The game is over " + "the current step is " + (i + 1) + " value of player stats is " + playerStats +
                         ". You WIN");
                 break;
             }else{
